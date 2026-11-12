@@ -1,0 +1,17 @@
+{
+  "name": "portafolio_maria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "less": "^4.9.1",
+    "vite": "^8.3.8"
+  }
+}

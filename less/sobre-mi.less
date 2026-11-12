@@ -1,0 +1,26 @@
+.about-content {
+    max-width: 800px;
+    position: relative;
+    padding: 30px;
+    border-left: 4px solid @color-primario;
+    background-color: #f8f7ff;
+    border-radius: 8px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background-color: #f0efff;
+        border-radius: 50%;
+        right: -30px;
+        bottom: -30px;
+        z-index: -1;
+    }
+
+    p {
+        color: #555555;
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+}
